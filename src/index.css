@@ -16,8 +16,26 @@ code {
     monospace;
 }
 
-/* #heroBg {
-  color: rgb(45, 47, 100);
-  background: linear-gradient(rgba(45, 47, 100,0.9), rgba(45, 47, 100, 0.9)), url('/public/assets/heroBanner1.jpg');
-  background-size: cover;
-} */
+.fluid {
+  border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+}
+
+.section_title {
+  @apply text-finesseOrange font-medium
+}
+
+.section_header {
+  @apply text-finesseBlue text-3xl md:text-5xl font-semibold mt-2
+}
+
+.service_title {
+  @apply text-finesseBlue text-xl font-semibold mt-2
+}
+
+.service_content {
+  @apply text-sm text-finesseBlue font-medium
+}
+
+.service_button {
+  @apply w-fit text-finesseOrange text-sm font-medium
+}

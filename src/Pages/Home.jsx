@@ -1,5 +1,7 @@
+import AboutSection from "../Components/AboutSection"
 import HomeHero from "../Components/HomeHero"
 import Navbar from "../Components/Navbar"
+import ServiceSection from "../Components/ServiceSection"
 
 const Home = () => {
   return (
@@ -7,6 +9,10 @@ const Home = () => {
         {/* Header Section */}
         <Navbar />
         <HomeHero />
+        {/* About Section */}
+        <AboutSection />
+        {/* Service section */}
+        <ServiceSection />
     </div>
   )
 }
