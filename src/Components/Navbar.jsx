@@ -9,14 +9,14 @@ const Navbar = () => {
   return (
     <div className="w-full bg-white flex">
         <div className="max-w-7xl shadow px-5 xl:px-0  py-1 md:py-2 flex items-center justify-between w-full mx-auto">
-            <img src="logo.jpeg" className="w-16 lg:w-24 cursor-pointer" alt="FinesseCode" />
+            <img src="logo.jpeg" className="w-16 lg:w-20 cursor-pointer" alt="FinesseCode" />
             <div className="lg:flex hidden items-center gap-7">
-                <Link className=' lg:text-lg text-finesseBlue hover:text-finesseOrange transition-all duration-300 ease-in-out' to='/'>Home</Link>
-                <Link className=' lg:text-lg text-finesseBlue hover:text-finesseOrange transition-all duration-300 ease-in-out' to='/'>About Us</Link>
-                <Link className=' lg:text-lg text-finesseBlue hover:text-finesseOrange transition-all duration-300 ease-in-out' to='/'>Services</Link>
-                <Link className=' lg:text-lg text-finesseBlue hover:text-finesseOrange transition-all duration-300 ease-in-out' to='/'>Products</Link>
+                <Link className=' text-finesseBlue hover:text-finesseOrange transition-all duration-300 ease-in-out' to='/'>Home</Link>
+                <Link className=' text-finesseBlue hover:text-finesseOrange transition-all duration-300 ease-in-out' to='/'>About Us</Link>
+                <Link className=' text-finesseBlue hover:text-finesseOrange transition-all duration-300 ease-in-out' to='/'>Services</Link>
+                <Link className=' text-finesseBlue hover:text-finesseOrange transition-all duration-300 ease-in-out' to='/'>Products</Link>
             </div>
-            <button className='text-white lg:inline-flex hidden lg:text-lg px-7 py-3 bg-finesseBlue hover:bg-finesseOrange transition-all duration-300 ease-in-out rounded-md'>Let Us Talk</button>
+            <button className='text-white lg:inline-flex hidden px-5 py-2 bg-finesseBlue hover:bg-finesseOrange transition-all duration-300 ease-in-out rounded-md'>Let Us Talk</button>
             {!toggle&&<RiMenu3Fill onClick={()=>setToggle(!toggle)} className='text-2xl lg:hidden font-semibold text-finesseBlue cursor-pointer' />}
         </div>
         {toggle&&(
