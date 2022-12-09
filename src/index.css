@@ -39,3 +39,11 @@ code {
 .service_button {
   @apply w-fit text-finesseOrange text-sm font-medium
 }
+
+.max_section {
+  @apply max-w-6xl mx-auto flex lg:flex-row flex-col items-center
+}
+
+.stat_max_section {
+  @apply max-w-6xl mx-auto flex md:flex-row flex-col items-center
+}
