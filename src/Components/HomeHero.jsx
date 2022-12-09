@@ -1,7 +1,16 @@
 const HomeHero = () => {
   return (
-    <div className="w-full min-h-screen bg-finesseBlue">
-
+    <div className="w-full h-[36rem] flex">
+        <div className="max-w-6xl mx-auto h-[36rem] w-full flex">
+            <div className="w-2/5 px-5 xl:px-0 my-auto gap-5 flex flex-col">
+                <h1 className="text-5xl leading-tight text-finesseBlue font-medium">Brings to life your <br /> IT solutions.</h1>
+                <p className="text-finesseBlue text-lg leading-6">A top-notch software engineering team <br /> delivering excellent code.</p>
+                <button className="text-white w-fit px-7 py-2.5 rounded text-lg bg-gradient-to-r to-indigo-500 from-finesseBlue">Discover More</button>
+            </div>
+            <div className="w-3/5 flex">
+              <img src="/assets/heroImg.png" alt="heroImg" className="object-cover w-9/12 ml-auto my-auto" />
+            </div>
+        </div>
     </div>
   )
 }

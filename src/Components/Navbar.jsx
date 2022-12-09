@@ -7,30 +7,28 @@ import { useState } from 'react';
 const Navbar = () => {
     const [toggle, setToggle] = useState(false)
   return (
-    <div className="w-full bg-white flex">
-        <div className="max-w-7xl shadow px-5 xl:px-0  py-1 md:py-2 flex items-center justify-between w-full mx-auto">
-            <img src="logo.jpeg" className="w-16 lg:w-20 cursor-pointer" alt="FinesseCode" />
+    <div className="w-full bg-white flex border-b">
+        <div className="max-w-6xl px-5 xl:px-0 py-5 flex items-center justify-between w-full mx-auto">
+            <Link to='/'className='text-2xl md:text-3xl font-medium text-finesseBlue'>FinesseCode</Link>
             <div className="lg:flex hidden items-center gap-7">
-                <Link className=' text-finesseBlue hover:text-finesseOrange transition-all duration-300 ease-in-out' to='/'>Home</Link>
-                <Link className=' text-finesseBlue hover:text-finesseOrange transition-all duration-300 ease-in-out' to='/'>About Us</Link>
-                <Link className=' text-finesseBlue hover:text-finesseOrange transition-all duration-300 ease-in-out' to='/'>Services</Link>
-                <Link className=' text-finesseBlue hover:text-finesseOrange transition-all duration-300 ease-in-out' to='/'>Products</Link>
+                <Link className='text-light text-sm text-finesseBlue hover:text-finesseOrange transition-all duration-300 ease-in-out' to='/'>Home</Link>
+                <Link className='text-light text-sm text-finesseBlue hover:text-finesseOrange transition-all duration-300 ease-in-out' to='/'>About Us</Link>
+                <Link className='text-light text-sm text-finesseBlue hover:text-finesseOrange transition-all duration-300 ease-in-out' to='/'>Services</Link>
+                <Link className='text-light text-sm text-finesseBlue hover:text-finesseOrange transition-all duration-300 ease-in-out' to='/'>Products</Link>
+                <Link className='text-light text-sm text-finesseBlue hover:text-finesseOrange transition-all duration-300 ease-in-out' to='/'>Contact Us</Link>
             </div>
-            <button className='text-white lg:inline-flex hidden px-5 py-2 bg-finesseBlue hover:bg-finesseOrange transition-all duration-300 ease-in-out rounded-md'>Let Us Talk</button>
-            {!toggle&&<RiMenu3Fill onClick={()=>setToggle(!toggle)} className='text-2xl lg:hidden font-semibold text-finesseBlue cursor-pointer' />}
+            {!toggle&&<RiMenu3Fill onClick={()=>setToggle(!toggle)} className='text-2xl lg:hidden font-medium text-finesseBlue cursor-pointer' />}
         </div>
         {toggle&&(
             <div className='fixed left-0 w-full h-screen flex items-center animate__animated animate__fadeInDown transition-all'>
                 <div className='w-9/12 bg-white h-full flex flex-col py-5 px-5 gap-7'>
-                    <Link to="/">
-                        <img src="logo.jpeg" alt="FinesseCode" className='w-16 h-fit' />
-                    </Link>
+                    <Link to='/'className='text-2xl font-medium text-finesseBlue'>FinesseCode</Link>
                     <div className='flex flex-col gap-7'>
-                        <Link className='text-finesseBlue hover:text-finesseOrange transition-all duration-300 ease-in-out' to='/'>Home</Link>
-                        <Link className='text-finesseBlue hover:text-finesseOrange transition-all duration-300 ease-in-out' to='/'>About Us</Link>
-                        <Link className='text-finesseBlue hover:text-finesseOrange transition-all duration-300 ease-in-out' to='/'>Services</Link>
-                        <Link className='text-finesseBlue hover:text-finesseOrange transition-all duration-300 ease-in-out' to='/'>Products</Link>
-                        <button className='w-fit text-white px-5 py-2 bg-finesseBlue hover:bg-finesseOrange transition-all duration-300 ease-in-out rounded-md'>Let Us Talk</button>
+                        <Link className='text-light text-sm text-finesseBlue hover:text-finesseOrange transition-all duration-300 ease-in-out' to='/'>Home</Link>
+                        <Link className='text-light text-sm text-finesseBlue hover:text-finesseOrange transition-all duration-300 ease-in-out' to='/'>About Us</Link>
+                        <Link className='text-light text-sm text-finesseBlue hover:text-finesseOrange transition-all duration-300 ease-in-out' to='/'>Services</Link>
+                        <Link className='text-light text-sm text-finesseBlue hover:text-finesseOrange transition-all duration-300 ease-in-out' to='/'>Products</Link>
+                        <Link className='text-light text-sm text-finesseBlue hover:text-finesseOrange transition-all duration-300 ease-in-out' to='/'>Contact Us</Link>
                     </div>
                 </div>
                 <button onClick={()=>setToggle(false)} className='w-3/12 bg-black/20 h-full flex py-5 px-5'>
