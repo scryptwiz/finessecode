@@ -13,7 +13,7 @@ const Navbar = () => {
             <div className="lg:flex hidden items-center gap-7">
                 <Link className='text-light text-sm text-finesseBlue hover:text-finesseOrange transition-all duration-300 ease-in-out' to='/'>Home</Link>
                 <Link className='text-light text-sm text-finesseBlue hover:text-finesseOrange transition-all duration-300 ease-in-out' to='/about'>About Us</Link>
-                <Link className='text-light text-sm text-finesseBlue hover:text-finesseOrange transition-all duration-300 ease-in-out' to='/'>Services</Link>
+                <Link className='text-light text-sm text-finesseBlue hover:text-finesseOrange transition-all duration-300 ease-in-out' to='/service'>Services</Link>
                 <Link className='text-light text-sm text-finesseBlue hover:text-finesseOrange transition-all duration-300 ease-in-out' to='/'>Products</Link>
                 <Link className='text-light text-sm text-finesseBlue hover:text-finesseOrange transition-all duration-300 ease-in-out' to='/'>Contact Us</Link>
             </div>
@@ -26,7 +26,7 @@ const Navbar = () => {
                     <div className='flex flex-col gap-7'>
                         <Link className='text-light text-sm text-finesseBlue hover:text-finesseOrange transition-all duration-300 ease-in-out' to='/'>Home</Link>
                         <Link className='text-light text-sm text-finesseBlue hover:text-finesseOrange transition-all duration-300 ease-in-out' to='/about'>About Us</Link>
-                        <Link className='text-light text-sm text-finesseBlue hover:text-finesseOrange transition-all duration-300 ease-in-out' to='/'>Services</Link>
+                        <Link className='text-light text-sm text-finesseBlue hover:text-finesseOrange transition-all duration-300 ease-in-out' to='/service'>Services</Link>
                         <Link className='text-light text-sm text-finesseBlue hover:text-finesseOrange transition-all duration-300 ease-in-out' to='/'>Products</Link>
                         <Link className='text-light text-sm text-finesseBlue hover:text-finesseOrange transition-all duration-300 ease-in-out' to='/'>Contact Us</Link>
                     </div>
