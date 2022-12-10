@@ -1,6 +1,6 @@
 const StatsSection = () => {
   return (
-    <div className="w-full flex my-10">
+    <div className="w-full flex my-10 py-16">
         <div className="stat_max_section gap-7 lg:text-left text-center lg:gap-12">
             <div className="">
                 <h1 className="text-3xl font-semibold text-finesseBlue">500</h1>

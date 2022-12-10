@@ -44,6 +44,18 @@ code {
   @apply max-w-6xl mx-auto flex lg:flex-row flex-col items-center
 }
 
+.team_max_section {
+  @apply max-w-6xl mx-auto flex flex-row flex-wrap items-center
+}
+
 .stat_max_section {
   @apply max-w-6xl mx-auto flex md:flex-row flex-col items-center
+}
+
+.team_title {
+  @apply text-finesseBlue text-xl font-medium text-center mt-2 capitalize
+}
+
+.team_content {
+  @apply text-center text-sm text-finesseBlue
 }
