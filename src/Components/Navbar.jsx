@@ -14,8 +14,7 @@ const Navbar = () => {
                 <Link className='text-light text-sm text-finesseBlue hover:text-finesseOrange transition-all duration-300 ease-in-out' to='/'>Home</Link>
                 <Link className='text-light text-sm text-finesseBlue hover:text-finesseOrange transition-all duration-300 ease-in-out' to='/about'>About Us</Link>
                 <Link className='text-light text-sm text-finesseBlue hover:text-finesseOrange transition-all duration-300 ease-in-out' to='/service'>Services</Link>
-                <Link className='text-light text-sm text-finesseBlue hover:text-finesseOrange transition-all duration-300 ease-in-out' to='/'>Products</Link>
-                <Link className='text-light text-sm text-finesseBlue hover:text-finesseOrange transition-all duration-300 ease-in-out' to='/'>Contact Us</Link>
+                <Link className='text-light text-sm text-finesseBlue hover:text-finesseOrange transition-all duration-300 ease-in-out' to='/contact'>Contact Us</Link>
             </div>
             {!toggle&&<RiMenu3Fill onClick={()=>setToggle(!toggle)} className='text-2xl lg:hidden font-medium text-finesseBlue cursor-pointer' />}
         </div>
@@ -27,8 +26,7 @@ const Navbar = () => {
                         <Link className='text-light text-sm text-finesseBlue hover:text-finesseOrange transition-all duration-300 ease-in-out' to='/'>Home</Link>
                         <Link className='text-light text-sm text-finesseBlue hover:text-finesseOrange transition-all duration-300 ease-in-out' to='/about'>About Us</Link>
                         <Link className='text-light text-sm text-finesseBlue hover:text-finesseOrange transition-all duration-300 ease-in-out' to='/service'>Services</Link>
-                        <Link className='text-light text-sm text-finesseBlue hover:text-finesseOrange transition-all duration-300 ease-in-out' to='/'>Products</Link>
-                        <Link className='text-light text-sm text-finesseBlue hover:text-finesseOrange transition-all duration-300 ease-in-out' to='/'>Contact Us</Link>
+                        <Link className='text-light text-sm text-finesseBlue hover:text-finesseOrange transition-all duration-300 ease-in-out' to='/contact'>Contact Us</Link>
                     </div>
                 </div>
                 <button onClick={()=>setToggle(false)} className='w-3/12 bg-black/20 h-full flex py-5 px-5'>
