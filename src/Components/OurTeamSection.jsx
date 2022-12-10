@@ -2,7 +2,7 @@ const OurTeamSection = () => {
   return (
     <div className="flex w-full flex-col">
         <h1 className="text-center text-3xl font-medium text-finesseBlue mb-10">Our Team</h1>
-        <div className="w-full pb-20 flex flex-wrap gap-7 justify-center px-5 md:px-0">
+        <div className="w-full max-w-7xl mx-auto pb-20 flex flex-wrap gap-7 justify-center px-5 md:px-0">
             <div className="bg-white shadow-md flex flex-col md:w-4/12 w-full lg:w-2/12 rounded">
                 <img src="/assets/write.jpg" alt="WebDev" className="h-52 object-cover rounded-t"/>
                 <div className="px-3 pt-2 pb-4 flex flex-col gap-1">    
