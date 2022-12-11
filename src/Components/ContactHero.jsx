@@ -2,7 +2,7 @@ import { Link } from "react-router-dom"
 
 const ContactHero = () => {
   return (
-    <div className="w-full md:h-fit flex py-5 mb-5 md:mb-32 bg-finesseBlue/20">
+    <div className="w-full md:h-fit flex py-5 mb-5 md:mb-24 bg-finesseBlue/20">
         <div className="max-w-6xl mx-auto md:h-fit w-full flex lg:flex-row flex-col">
             <div className="md:w-fit mx-auto lg:py-0 text-center lg:text-left py-16 lg:w-2/5 px-5 xl:px-0 my-auto gap-5 flex flex-col">
                 <h1 className="text-5xl leading-tight text-finesseBlue font-medium">Contact Us</h1>

@@ -1,6 +1,8 @@
+import ContactForm from "../Components/ContactForm"
 import ContactHero from "../Components/ContactHero"
 import ContactInformation from "../Components/ContactInformation"
 import FooterSection from "../Components/FooterSection"
+import Map from "../Components/Map"
 import Navbar from "../Components/Navbar"
 
 const Contact = () => {
@@ -11,6 +13,10 @@ const Contact = () => {
         <ContactHero/>
         {/* Contact Info */}
         <ContactInformation />
+        {/* Contact Form */}
+        <ContactForm />
+        {/* Map */}
+        <Map/>  
         {/* Footer */}
         <FooterSection />
     </div>

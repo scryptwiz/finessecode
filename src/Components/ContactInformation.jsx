@@ -4,8 +4,7 @@ import { IoCallOutline } from 'react-icons/io5';
 
 const ContactInformation = () => {
     return (
-        // <div className='border-3'>
-        <div className="md:border border-gray-400 rounded-sm stat_max_section gap-7 lg:text-left text-center lg:gap-12 px-12 py-8 mb-8 md:mb-24" >
+        <div className="md:border border-gray-400 rounded-sm stat_max_section gap-7 lg:text-left text-center lg:gap-12 px-12 py-8 mb-8 md:mb-12" >
             <div className="w-full md:w-[30%] p-6 flex flex-col items-center text-center gap-3">
                 <CiLocationOn className='text-finesseBlue text-4xl' />
                 <p className="text-finesseBlue">Address: Ikeja, Lagos 100265, NG</p>
@@ -21,7 +20,6 @@ const ContactInformation = () => {
                 <p className="text-finesseBlue">+234 786 415 6171 <br /> +234 931 104 7842</p>
             </div>
         </div>
-        // </div>
     )
 }
 
