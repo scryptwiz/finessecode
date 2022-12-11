@@ -44,6 +44,10 @@ code {
   @apply max-w-6xl mx-auto flex lg:flex-row flex-col items-center
 }
 
+.footer_max_section {
+  @apply max-w-6xl mx-auto flex md:flex-row flex-col items-center
+}
+
 .team_max_section {
   @apply max-w-6xl mx-auto flex flex-row flex-wrap items-center
 }

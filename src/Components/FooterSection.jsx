@@ -5,7 +5,7 @@ import { TbSend } from 'react-icons/tb';
 const FooterSection = () => {
   return (
     <div className="w-full flex">
-      <div className="max_section gap-10 border-t w-full">
+      <div className="footer_max_section gap-10 border-t w-full">
         <div className="w-full md:w-5/12 bg-finesseBlue py-5 px-5">
           <h5 className="text-white text-4xl">Finesse-Code</h5>
           <p className="text-sm text-gray-100 mt-4">Since 2019, we have been steadily expanding with the goal of seeing Organizations achieve and raise the bar on the international stage.</p>
