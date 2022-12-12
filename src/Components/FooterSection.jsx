@@ -37,8 +37,8 @@ const FooterSection = () => {
       </div>
       <div className="border-t border-[#283453] py-6">
         <div className="text-center w-80 md:w-full leading-8 text-[15px] md:text-[16px] flex items-center gap-1 justify-center">
-          <p>© 2022 FinesseCode. Design with</p>
-          <img src="/assets/love.png" alt="" className="w-5 h-fit" />by
+          <p className='text-center md:text-left'>© 2022 FinesseCode. Design with</p>
+          <img src="/assets/love.png" alt="" className="w-5 h-5" />by
           <p className="hidden md:flex">FinesseCode.</p>
         </div>
         <p className="block md:hidden text-center">FinesseCode.</p>
