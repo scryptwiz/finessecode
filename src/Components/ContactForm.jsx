@@ -12,7 +12,7 @@ const ContactForm = () => {
             </div>
             {/* Form Section */}
             <div className='w-full lg:w-7/12 shadow-md rounded-sm p-9'>
-                <form action="" className=' flex flex-col gap-3'>
+                <form className=' flex flex-col gap-3'>
                     <h4 className='text-finesseBlue font-semibold text-base md:text-xl'>Get In Touch !</h4>
                     <div className='flex flex-col gap-8'>
                         <div className='w-full flex items-center border border-finesseBlue/40 rounded-md focus:outline focus:outline-finesseBlue px-5'>
